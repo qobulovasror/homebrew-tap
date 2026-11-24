@@ -8,23 +8,23 @@ class Bashlings < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/qobulovasror/bashlings/releases/download/v0.1.1/bashlings-aarch64-apple-darwin.tar.gz"
-      sha256 "47216b79e96c4883c634e6465d881df687ddb2a6a1b03f5bbe3d1e6bed47523d"
+      url "https://github.com/qobulovasror/bashlings/releases/download/v0.1.2/bashlings-aarch64-apple-darwin.tar.gz"
+      sha256 "9694b416e0cb7ec337d3b0d15eca01200d342309104d779e99a644fbf7cdfdd1"
     end
     on_intel do
-      url "https://github.com/qobulovasror/bashlings/releases/download/v0.1.1/bashlings-x86_64-apple-darwin.tar.gz"
-      sha256 "2cf141c66ab0b90666d080353be8fa9d896b0ef923151d8ff690f982919d53d6"
+      url "https://github.com/qobulovasror/bashlings/releases/download/v0.1.2/bashlings-x86_64-apple-darwin.tar.gz"
+      sha256 "5fffa1c21da261f2a51fe620c41d38e8519eb5fc21316bd01395a97b4be5027c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/qobulovasror/bashlings/releases/download/v0.1.1/bashlings-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ce058c548e392ae587f84ad5b6cff4c93e24338ac79c930e23b4a1cfcd74551d"
+      url "https://github.com/qobulovasror/bashlings/releases/download/v0.1.2/bashlings-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "19531fc48e8fb92f52fd861be8ae89dff375fd065f5ef6e87d29294f2358598b"
     end
     on_intel do
-      url "https://github.com/qobulovasror/bashlings/releases/download/v0.1.1/bashlings-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7956018afb4a35dda76aff5e9fa12be879fac499b002908c4ae7c8cfbc79d3f9"
+      url "https://github.com/qobulovasror/bashlings/releases/download/v0.1.2/bashlings-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ed2c957354295967020526bc21c63e33602b0c3597182013258454c1f7c020c7"
     end
   end
 
